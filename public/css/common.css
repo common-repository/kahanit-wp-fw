@@ -1,0 +1,29 @@
+/* common */
+#kahanit-wp-fw .plugin-title strong strong,
+.wrap h2 strong {background-color:#f00;color:#fff;padding:1px 3px;text-shadow:none;position:relative;display:inline;}
+#kahanit-wp-fw .plugin-title strong strong {font-size:8px;bottom:6px;}
+.wrap h2 strong {bottom:12px;}
+
+/* manage */
+.x-body{color:#333;font-size:12px;font-family:sans-serif;}
+.x-reset textarea,.x-reset input[type="text"],.x-reset input[type="password"],.x-reset input[type="file"],.x-reset input[type="button"],.x-reset input[type="submit"],.x-reset input[type="reset"],.x-reset input[type="email"],.x-reset input[type="number"],.x-reset input[type="search"],.x-reset input[type="tel"],.x-reset input[type="url"],.x-reset select{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.x-reset .x-form-display-field{padding-top:0;}
+#kahanit-wp-fw .ux-filtered-column{font-style:italic;font-weight:700;}
+#kahanit-wp-fw  .canvas-bg{background-image:url(../images/canvas-bg.png);}
+#icon-kahanit-wp-fw-manage{background:transparent url(../images/kahanit-wp-fw-manage.png) no-repeat left top;width:34px;}
+#adminmenu #toplevel_page_kahanit-wp-fw img{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter:alpha(opacity=100) !important;-moz-opacity:1;-khtml-opacity:1;opacity:1 !important;}
+#kwf-help-links{float:right;margin-top:20px;}
+#kwf-help-links a{margin-left:2px;}
+
+/* sortable */
+#kahanit-wp-fw .field-actions{text-align:right;display:block;}
+#kahanit-wp-fw .field-move{cursor:move;}
+#kahanit-wp-fw .field-edit{cursor:pointer;}
+#kahanit-wp-fw .field-remove{cursor:pointer;}
+#kahanit-wp-fw .field-addfield{cursor:pointer;}
+#kahanit-wp-fw .sortable-placeholder{height:36px;background-color:#eaeaea;border:2px dashed #d0d0d0;}
+
+/* edit tab */
+.x-reset .x-tab-close-btn{top:-1px;right:-1px;}
+.x-reset .x-tab-edit-btn{position:absolute;top:9px;right:-1px;width:11px;height:11px;font-size:0;line-height:0;text-indent:-999px;background:no-repeat;background-image:url('../images/tab-default-edit.gif');filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);opacity:0.6;}
+.x-reset .x-tab-edit-btn:hover{filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);opacity:1;}
